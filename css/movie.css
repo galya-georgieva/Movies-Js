@@ -1,0 +1,39 @@
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 390px);
+    margin: 50px 100px;
+    list-style-type: none;
+}
+
+.films {
+    display: flex;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin: 20px;
+    text-align: center;
+}
+
+.films:hover {
+    transform: translateY(-20px);
+}
+
+.films .films-container .photo img {
+    width: 350px;
+    height: 400px;
+}
+
+.details a button {
+    margin-bottom: 20px;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #b191b1;
+    font-size: 16px;
+}
+
+.details a button:hover {
+    opacity: 1;
+}

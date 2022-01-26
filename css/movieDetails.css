@@ -1,0 +1,47 @@
+.film {
+    display: grid;
+}
+
+.film-container {
+    margin: 40px 40px 0px 40px;
+}
+
+.film .film-container .photo img {
+    width: 400px;
+    height: 450px;
+}
+
+.name h2 {
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+    line-height: 1.6;
+}
+
+.prive-buttons,
+.public-buttons {
+    margin: 20px 0px;
+}
+
+.prive-buttons a,
+.public-buttons button {
+    color: black;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.8;
+    background-color: #997399;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.prive-buttons a:hover,
+.public-buttons button:hover {
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

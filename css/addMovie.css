@@ -1,0 +1,59 @@
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+textarea {
+    width: 53%;
+    margin: 10px 0 22px 0;
+}
+
+input[type=text] {
+    width: 50%;
+    margin: 5px 0 22px 0;
+}
+
+input[type=text],
+textarea {
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: rgba(255, 255, 255, 0.952);
+}
+
+input[type=text]:focus,
+textarea {
+    background-color: rgba(255, 255, 255, 0.952);
+    outline: none;
+}
+
+.createbtn {
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    background-color: #997399;
+    font-size: 18px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.048);
+}
+
+.createbtn:hover {
+    opacity: 1;
+}
+
+.title-container label {
+    padding-right: 35px;
+}
+
+.movie-description-container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.movie-description-container div label {
+    margin-right: 70px;
+}

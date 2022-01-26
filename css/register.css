@@ -1,0 +1,67 @@
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+input[name=username],
+input[name=email],
+input[name=password],
+input[name=repeatPassword] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgba(255, 255, 255, 0.952);
+}
+
+input[type=text]:focus,
+input[name=email]:focus,
+input[name=password]:focus,
+input[name=repeatPassword]:focus {
+    background-color: rgba(255, 255, 255, 0.952);
+    outline: none;
+}
+
+.registerbtn {
+    color: black;
+    padding: 16px 20px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    background-color: #997399;
+    font-size: 18px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.048);
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.signin {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.signin p {
+    margin: 0px;
+}
+
+.signin p a {
+    color: #3a313a;
+}
+
+.register-email label {
+    padding-right: 23px;
+}
+
+.register-repeat-password {
+    display: flex;
+    align-items: baseline;
+}
+
+.register-repeat-password p {
+    margin: 0px 5px 0px 255px;
+}
