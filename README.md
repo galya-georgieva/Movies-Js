@@ -1,7 +1,9 @@
 # Movies-Js
 
-Installation 
+## Installation 
 
+```bash
 1.  npm i
-2.  npm run server
 
+2.  npm run server
+```
